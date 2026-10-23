@@ -1,0 +1,98 @@
+[
+  {
+    "id": "RM-DLX-K",
+    "name": "Deluxe King Ocean View",
+    "tier": "Deluxe",
+    "square_meters": 48,
+    "bed_configuration": "1 King Bed with 800-thread-count Egyptian cotton linens",
+    "max_occupancy": 2,
+    "base_rate_usd": 450.0,
+    "view_type": "Panoramic Ocean View with Private Balcony",
+    "features": [
+      "Marble bathroom with deep soaking tub and rainfall shower",
+      "Floor-to-ceiling glass doors opening to furnished balcony",
+      "Nespresso Vertuo coffee station with complimentary pods",
+      "65-inch Smart TV with streaming and Bang & Olufsen sound system",
+      "Complimentary high-speed fiber Wi-Fi (150 Mbps)",
+      "Automated blackout drapes and mood lighting"
+    ],
+    "smoking_allowed": false,
+    "pet_friendly": false
+  },
+  {
+    "id": "RM-DLX-QQ",
+    "name": "Deluxe Double Queen Garden Terrace",
+    "tier": "Deluxe",
+    "square_meters": 52,
+    "bed_configuration": "2 Queen Beds",
+    "max_occupancy": 4,
+    "base_rate_usd": 420.0,
+    "view_type": "Private Botanical Garden & Fountain View",
+    "features": [
+      "Dual marble vanities and walk-in rain shower",
+      "Private ground-floor garden patio with sun loungers",
+      "Illy espresso machine and artisan tea selection",
+      "Complimentary high-speed fiber Wi-Fi",
+      "Mini-bar curated with local organic wines and gourmet snacks"
+    ],
+    "smoking_allowed": false,
+    "pet_friendly": true
+  },
+  {
+    "id": "RM-STE-AZ",
+    "name": "Azure Executive Suite",
+    "tier": "Executive",
+    "square_meters": 85,
+    "bed_configuration": "1 King Bed + Queen pull-out sofa",
+    "max_occupancy": 3,
+    "base_rate_usd": 850.0,
+    "view_type": "Corner Panoramic Ocean & Marina View",
+    "features": [
+      "Separate living room and executive study desk",
+      "Complimentary access to the exclusive Executive Club Lounge (daily evening cocktails & canapes)",
+      "Free-standing clawfoot ocean-facing bathtub and Hermès amenities",
+      "Private wrap-around sun terrace with dining table",
+      "Dedicated packing and unpacking butler service"
+    ],
+    "smoking_allowed": false,
+    "pet_friendly": false
+  },
+  {
+    "id": "RM-VIL-OCN",
+    "name": "Cliffside Ocean Villa with Private Pool",
+    "tier": "Villa",
+    "square_meters": 160,
+    "bed_configuration": "1 Master King Bed + 1 Guest King Bed",
+    "max_occupancy": 4,
+    "base_rate_usd": 1850.0,
+    "view_type": "Direct Unobstructed 180° Ocean Cliff View",
+    "features": [
+      "Private heated infinity plunge pool and outdoor daybed",
+      "Private outdoor garden rain shower and sunken spa tub",
+      "Dedicated 24-hour private butler",
+      "Full gourmet kitchenette with Sub-Zero refrigerator and wine cellar",
+      "Complimentary roundtrip airport luxury chauffeur transfer included"
+    ],
+    "smoking_allowed": false,
+    "pet_friendly": true
+  },
+  {
+    "id": "RM-PNT-ROY",
+    "name": "The Royal Azure Penthouse",
+    "tier": "Penthouse",
+    "square_meters": 320,
+    "bed_configuration": "3 Master King Suites with en-suite baths",
+    "max_occupancy": 6,
+    "base_rate_usd": 4500.0,
+    "view_type": "360-degree Top-Floor Ocean & Mountain Skyline View",
+    "features": [
+      "Top-floor private elevator access",
+      "Rooftop terrace with heated jacuzzi, outdoor fire pit, and BBQ pavilion",
+      "Steinway grand piano in formal living room",
+      "Private chef dining service on request",
+      "Complimentary private 4-hour sunset yacht cruise per stay"
+    ],
+    "smoking_allowed": false,
+    "pet_friendly": true
+  }
+]

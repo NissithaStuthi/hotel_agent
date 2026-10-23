@@ -1,0 +1,42 @@
+[
+  {
+    "id": "POL-CHECKIN",
+    "title": "Check-In and Check-Out Regulations",
+    "category": "Check-in/out",
+    "summary": "Check-in begins at 3:00 PM; check-out is strictly by 11:00 AM.",
+    "details": "Early check-in prior to 3:00 PM is subject to availability and complimentary after 12:00 PM for Executive and Villa tiers. Guaranteed early morning check-in before 10:00 AM incurs a 50% room night charge. Late check-out until 1:00 PM is complimentary upon request subject to availability; late check-out until 4:00 PM is charged at $100; departures after 4:00 PM incur a full night rate.",
+    "strictness_level": "Standard"
+  },
+  {
+    "id": "POL-CANCEL",
+    "title": "Reservation Cancellation & Deposit Policy",
+    "category": "Cancellation",
+    "summary": "Cancellations must be made 48 hours prior to arrival (7 days for Villas and Penthouse).",
+    "details": "Standard room reservations may be canceled or modified without penalty up to 48 hours prior to 3:00 PM local time on arrival date. Cancellations inside 48 hours will be assessed a penalty equal to the first night's room rate plus tax. For Cliffside Ocean Villas and the Royal Azure Penthouse, a 7-day cancellation window applies. Non-refundable promotional rates cannot be canceled or modified.",
+    "strictness_level": "Strict"
+  },
+  {
+    "id": "POL-PETS",
+    "title": "Pet Hospitality & Canine Program",
+    "category": "Pets",
+    "summary": "Well-behaved dogs up to 45 lbs (20 kg) are welcomed in designated Garden Terrace rooms and Villas.",
+    "details": "A one-time non-refundable deep cleaning sanitization fee of $150 per stay applies (maximum 2 dogs per room). Includes luxury plush dog bed, organic artisanal treats, ceramic food and water bowls, and waste bags. Dogs must remain on leash in public areas and are not permitted inside restaurant indoor dining rooms, spa treatment areas, or pool waters. Certified service animals are exempt from all fees and size restrictions.",
+    "strictness_level": "Standard"
+  },
+  {
+    "id": "POL-SMOKING",
+    "title": "100% Smoke-Free Property Policy",
+    "category": "Smoking",
+    "summary": "The resort is entirely smoke-free, including all rooms, balconies, patios, and pool decks.",
+    "details": "Smoking of tobacco, e-cigarettes, vaping devices, or cannabis is strictly prohibited in all interior spaces, guest accommodations, and private balconies. A designated outdoor smoking lounge is located near the North Garden Gazebo. A minimum remediation and ozone air purification cleaning fee of $500 will be charged to any guest violating this policy.",
+    "strictness_level": "Strict"
+  },
+  {
+    "id": "POL-QUIET",
+    "title": "Quiet Hours and Conduct Policy",
+    "category": "Quiet Hours",
+    "summary": "Quiet hours are observed nightly between 10:00 PM and 7:00 AM.",
+    "details": "To preserve a tranquil and restorative sanctuary for all guests, excessive noise, loud music, and disruptive parties in guest rooms or corridors are prohibited during quiet hours. Security reserves the right to issue warnings and escalate to room eviction without refund for repeated non-compliance.",
+    "strictness_level": "Standard"
+  }
+]

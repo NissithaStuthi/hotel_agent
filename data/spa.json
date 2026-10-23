@@ -1,0 +1,38 @@
+[
+  {
+    "id": "SPA-MASS-01",
+    "name": "Azure Deep Mineral Recovery Massage",
+    "category": "Massage",
+    "duration_minutes": 80,
+    "price_usd": 280.0,
+    "description": "Deep muscular tension relief utilizing warm volcanic basalt stones, targeted pressure points, and therapeutic marine magnesium oils sourced from Brittany coastlines.",
+    "advance_booking_hours": 4
+  },
+  {
+    "id": "SPA-MASS-02",
+    "name": "Couples Ocean Harmony Massage",
+    "category": "Massage",
+    "duration_minutes": 90,
+    "price_usd": 550.0,
+    "description": "Side-by-side aromatherapy Swedish massage in an oceanfront private suite, followed by 30 minutes in a private hydrotherapy hot tub with chilled Dom Pérignon and artisan chocolates.",
+    "advance_booking_hours": 8
+  },
+  {
+    "id": "SPA-FAC-01",
+    "name": "Cellular Radiance Caviar Facial",
+    "category": "Facial",
+    "duration_minutes": 60,
+    "price_usd": 240.0,
+    "description": "Intense anti-aging infusion using biological marine collagen, French caviar extract, and cryo-sculpting rollers to instantly firm and revitalize tired skin.",
+    "advance_booking_hours": 2
+  },
+  {
+    "id": "SPA-HYDRO-01",
+    "name": "Thalassotherapy & Thermal Vitality Circuit",
+    "category": "Hydrotherapy",
+    "duration_minutes": 60,
+    "price_usd": 95.0,
+    "description": "Self-guided thermal circuit featuring heated seawater vitality pool, Himalayan salt inhalation room, eucalyptus steam chamber, and ice plunge waterfall. Complimentary for guests booking any 60+ minute treatment.",
+    "advance_booking_hours": 1
+  }
+]

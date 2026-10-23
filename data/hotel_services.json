@@ -1,0 +1,431 @@
+{
+  "hotel_name": "The Grand Azure Resort & Spa",
+  "last_updated": "2026-10-14",
+  "housekeeping": {
+    "id": "SRV-HK-01",
+    "name": "Housekeeping & Turn-Down Service",
+    "description": "Comprehensive daily housekeeping, bespoke evening turndown, pillow menu selection, and guest room amenity replenishment.",
+    "services": [
+      "Daily Morning Service (8:30 AM - 2:30 PM)",
+      "Evening Turndown Service (6:00 PM - 9:00 PM) with artisan lavender chocolates and linen mist",
+      "Express Refresh Service (15-20 min turnaround upon request)",
+      "Hypoallergenic and Feather Pillow Concierge Menu",
+      "Baby Cribs, Toddler Safety Rails, and Playpens (Complimentary)",
+      "Luggage Unpacking and Packing Assistance ($50 per service)",
+      "Lost and Found Safe Custody & Worldwide Shipping"
+    ],
+    "schedule": {
+      "monday": "24/7 (Staff on duty around the clock)",
+      "tuesday": "24/7",
+      "wednesday": "24/7",
+      "thursday": "24/7",
+      "friday": "24/7",
+      "saturday": "24/7",
+      "sunday": "24/7",
+      "notes": "Emergency cleaning and item delivery available 24 hours a day."
+    },
+    "pricing": {
+      "base_price": 0.0,
+      "currency": "USD",
+      "unit": "complimentary",
+      "complimentary_for": ["all_guests"],
+      "gratuity_included": false
+    },
+    "requestable_items": [
+      "Extra Plush Bath Towels & Pool Towels",
+      "Feather Down Pillows & Memory Foam Pillows",
+      "Hypoallergenic Duvets & Extra Blankets",
+      "Artisan Diptyque Bath Toiletries (Shampoo, Conditioner, Lotion)",
+      "Dental Kit, Shaving Razor & Comb",
+      "Hair Dryer (Dyson Supersonic) & Hair Straightener",
+      "Bathrobes & Plush Slippers",
+      "Humidifier & Air Purifier",
+      "Iron and Full-Size Ironing Board",
+      "International Plug Adapters & Mobile Phone Chargers"
+    ],
+    "turnaround_times": {
+      "towel_delivery": "10-15 minutes",
+      "extra_bedding": "15-20 minutes",
+      "full_room_refresh": "30-45 minutes",
+      "baby_crib_setup": "20-30 minutes"
+    },
+    "policies": [
+      "Daily housekeeping provided between 8:30 AM and 2:30 PM unless 'Do Not Disturb' is active",
+      "Green Linen Initiative: Linens laundered every third day unless placed in basket",
+      "Turndown service executed nightly between 6:00 PM and 9:00 PM"
+    ],
+    "contact": "Dial 2 from any room phone or tap 'Housekeeping' in the guest app."
+  },
+  "laundry": {
+    "id": "SRV-LND-01",
+    "name": "Valet Laundry, Dry Cleaning & Garment Pressing",
+    "description": "Premium garment care utilizing eco-friendly wet cleaning, organic detergents, hand pressing, and delicate fabric preservation.",
+    "services": [
+      "Standard Valet Laundry & Wash-and-Fold (24-Hour Turnaround)",
+      "Express Same-Day Laundry (4-Hour Turnaround, collected before 2:00 PM)",
+      "Eco Dry Cleaning for Suits, Dresses, and Fine Silks",
+      "Professional Steam & Hand Pressing",
+      "Minor Garment Alterations & Button Repair (Complimentary)"
+    ],
+    "schedule": {
+      "monday": "7:00 AM - 9:00 PM",
+      "tuesday": "7:00 AM - 9:00 PM",
+      "wednesday": "7:00 AM - 9:00 PM",
+      "thursday": "7:00 AM - 9:00 PM",
+      "friday": "7:00 AM - 9:00 PM",
+      "saturday": "8:00 AM - 8:00 PM",
+      "sunday": "8:00 AM - 8:00 PM",
+      "notes": "Items collected by 9:00 AM for standard service returned same day by 6:00 PM."
+    },
+    "pricing": {
+      "base_price": 0.0,
+      "currency": "USD",
+      "unit": "per_item",
+      "complimentary_for": ["press_2_items_per_day_suites"],
+      "gratuity_included": false
+    },
+    "item_pricing": {
+      "men_dress_shirt_laundered": 12.0,
+      "blouse_silk": 16.0,
+      "suit_2_piece_dry_clean": 35.0,
+      "trousers_dry_clean": 18.0,
+      "evening_dress_dry_clean": 45.0,
+      "garment_pressing_only": 10.0,
+      "sweater_cashmere_handwash": 24.0,
+      "undergarment_socks": 6.0
+    },
+    "express_available": true,
+    "express_surcharge": 0.5,
+    "turnaround_standard": "24 hours (or same-day if received by 9:00 AM)",
+    "turnaround_express": "4 hours (50% surcharge applies)",
+    "policies": [
+      "Laundry bag and inventory slip located in the master wardrobe closet",
+      "Suites and Villas receive 2 complimentary pressed garments per guest per day",
+      "Liability limited to 10x the cleaning charge per item in case of rare damage"
+    ],
+    "contact": "Dial 4 for Valet Laundry Dispatch or notify Concierge Julian."
+  },
+  "room_service": {
+    "id": "SRV-RS-01",
+    "name": "24/7 In-Room Dining & Gourmet Suite Catering",
+    "description": "Around-the-clock culinary service delivering chef-prepared breakfasts, all-day Mediterranean favorites, and late-night comfort dining directly to your room or private terrace.",
+    "hours": {
+      "monday": "24/7",
+      "tuesday": "24/7",
+      "wednesday": "24/7",
+      "thursday": "24/7",
+      "friday": "24/7",
+      "saturday": "24/7",
+      "sunday": "24/7",
+      "notes": "Breakfast: 6:00 AM - 11:00 AM. All-Day Dining: 11:00 AM - 11:00 PM. Overnight Menu: 11:00 PM - 6:00 AM."
+    },
+    "menu_categories": {
+      "breakfast": [
+        {"name": "Azure Coastal Benedict", "price": 28.0, "dietary": "Pescatarian", "desc": "Poached farm eggs, butter-poached lobster, Meyer lemon hollandaise on brioche"},
+        {"name": "Organic Acai Energy Bowl", "price": 22.0, "dietary": "Vegan, Gluten-Free", "desc": "Wild berries, toasted chia seeds, coconut flakes, raw coastal wildflower honey"},
+        {"name": "Continental Breakfast Basket", "price": 24.0, "dietary": "Vegetarian", "desc": "Freshly baked croissants, pain au chocolat, seasonal preserves, fresh squeezed valencia orange juice"}
+      ],
+      "all_day": [
+        {"name": "Grand Azure Wagyu Burger", "price": 38.0, "dietary": "Halal-friendly", "desc": "8oz American Wagyu, aged white cheddar, caramelized onion jam, truffle brioche, hand-cut herb fries"},
+        {"name": "Artisan Wood-Fired Margherita Pizza", "price": 26.0, "dietary": "Vegetarian", "desc": "San Marzano D.O.P. tomatoes, fresh buffalo mozzarella, hand-picked garden basil"},
+        {"name": "Mediterranean Sea Bass Fillet", "price": 46.0, "dietary": "Gluten-Free", "desc": "Pan-roasted branzino, crushed fingerling potatoes, salsa verde, caper berries"},
+        {"name": "Club Azure Sandwich", "price": 29.0, "dietary": "Standard", "desc": "Smoked heritage turkey, applewood bacon, avocado, hydroponic butter lettuce, herb aioli"}
+      ],
+      "overnight": [
+        {"name": "Midnight Truffle Burger", "price": 36.0, "dietary": "Standard", "desc": "Wagyu patty, truffle cheese sauce, shoestring fries"},
+        {"name": "Rustic Tuscan Tomato Bisque & Grilled Gruyère", "price": 24.0, "dietary": "Vegetarian", "desc": "Slow-simmered tomatoes, aged gruyère on sourdough"},
+        {"name": "Artisanal Cheese & Charcuterie Board", "price": 32.0, "dietary": "Gluten-Free Crackers on request", "desc": "Selection of 4 regional cheeses, cured prosciutto, honeycomb, marcona almonds"}
+      ],
+      "desserts": [
+        {"name": "Warm Valrhona Chocolate Lava Cake", "price": 18.0, "dietary": "Vegetarian", "desc": "Salted caramel gelato, cocoa nib tuile"},
+        {"name": "Tahitian Vanilla Bean Panna Cotta", "price": 16.0, "dietary": "Gluten-Free", "desc": "Macerated raspberries, mint crystals"}
+      ]
+    },
+    "pricing": {
+      "base_price": 0.0,
+      "currency": "USD",
+      "unit": "per_order",
+      "complimentary_for": [],
+      "gratuity_included": false
+    },
+    "delivery_time": "30-45 minutes (approx. 20-30 minutes for beverages and overnight items)",
+    "minimum_order": 20.0,
+    "dietary_options": ["Vegetarian", "Vegan", "Gluten-Free", "Halal-friendly", "Nut-Free", "Dairy-Free upon request", "Children's Menu"],
+    "policies": [
+      "A 18% service charge and $6.00 in-room delivery fee are added to all orders",
+      "Balcony setup and private terrace candlelight presentation available upon request",
+      "Hot meals delivered in thermal warming carts to ensure optimal serving temperature"
+    ],
+    "contact": "Dial 5 from your room telephone for 24/7 In-Room Dining."
+  },
+  "wifi": {
+    "id": "SRV-WIFI-01",
+    "name": "High-Speed Wi-Fi & Internet Connectivity",
+    "description": "Ultra high-speed seamless Wi-Fi coverage across all guest rooms, suites, villas, pool terraces, beach club, and resort gardens.",
+    "networks": [
+      {
+        "ssid": "GrandAzure_Guest",
+        "speed": "50 Mbps symmetric",
+        "cost": "Complimentary for all registered guests",
+        "login": "Connect and enter your Room Number and Guest Last Name",
+        "best_for": "Browsing, HD streaming, video calls, email"
+      },
+      {
+        "ssid": "GrandAzure_Ultra_Premium",
+        "speed": "300 Mbps symmetric low-latency",
+        "cost": "Complimentary for Suites & Villas ($15.00/24h for Deluxe rooms)",
+        "login": "VIP Passcode issued at check-in or available via Concierge",
+        "best_for": "4K Ultra-HD streaming, large file uploads, low-latency gaming, corporate VPNs"
+      }
+    ],
+    "coverage_areas": [
+      "All Guest Rooms & Private Balconies",
+      "Cliffside Infinity Pools & Private Cabanas",
+      "Private Azure Beach Club & Marina Dock",
+      "All Restaurants, Lounges, and Courtyard Gardens",
+      "Spa & Fitness Pavilion"
+    ],
+    "speed_tiers": {
+      "standard": {"download_mbps": 50, "upload_mbps": 50, "fee_usd": 0.0},
+      "ultra": {"download_mbps": 300, "upload_mbps": 300, "fee_usd": 15.0}
+    },
+    "pricing": {
+      "base_price": 0.0,
+      "currency": "USD",
+      "unit": "per_stay",
+      "complimentary_for": ["all_guests"],
+      "gratuity_included": false
+    },
+    "device_limit": 5,
+    "support_contact": "Dial 777 for 24/7 On-Site IT Concierge Support."
+  },
+  "parking": {
+    "id": "SRV-PRK-01",
+    "name": "Valet Parking, Self-Parking & EV Supercharging",
+    "description": "Secure covered parking facility with 24-hour valet attendants, video surveillance, and high-speed Level 2 & Level 3 DC Fast EV chargers.",
+    "options": [
+      {
+        "type": "Overnight Valet Parking",
+        "rate": "$45.00 per night",
+        "privileges": "Unlimited 24-hour in-and-out privileges with car retrieved in under 8 minutes via SMS",
+        "includes": "Complimentary windshield wash and bottled spring waters upon retrieval"
+      },
+      {
+        "type": "Self-Parking (Secured Garage)",
+        "rate": "$25.00 per night",
+        "privileges": "Secured keycard access, covered underground garage with elevator to lobby",
+        "includes": "Direct indoor pedestrian corridor to guest wings"
+      },
+      {
+        "type": "Day Visitor Valet",
+        "rate": "$20.00 for up to 4 hours ($45 thereafter)",
+        "privileges": "Complimentary validation with $75 minimum spend at resort restaurants or spa"
+      }
+    ],
+    "pricing": {
+      "base_price": 25.0,
+      "currency": "USD",
+      "unit": "per_night",
+      "tiers": {
+        "self_parking": 25.0,
+        "valet_parking": 45.0,
+        "day_visitor": 20.0
+      },
+      "complimentary_for": ["royal_penthouse_and_villas", "dining_spa_validated_visitors"],
+      "gratuity_included": false
+    },
+    "ev_charging": true,
+    "ev_charging_fee": 0.0,
+    "valet_hours": "24/7",
+    "self_park_hours": "24/7",
+    "policies": [
+      "Complimentary Level 2 and Tesla Supercharging for registered hotel guests",
+      "Oversized vehicles and trailers accommodated with 24-hour advance notice ($65/night)",
+      "Motorcycle parking available in designated sheltered bays at $20/night"
+    ],
+    "contact": "Dial 0 for Front Desk or text 'RETRIEVE [Ticket#]' to the Valet SMS line."
+  },
+  "gym": {
+    "id": "SRV-GYM-01",
+    "name": "Oceanfront Fitness Pavilion & Wellness Studio",
+    "description": "State-of-the-art 3,500 sq. ft. fitness center overlooking the Mediterranean with Technogym Artis cardio, Peloton bikes, Olympic free weights, and dedicated yoga pavilion.",
+    "equipment": [
+      "Technogym Artis Treadmills, Ellipticals & Stair Climbers with immersive screens",
+      "Peloton Commercial Bikes with live and on-demand worldwide cycling classes",
+      "Concept2 Rowing Ergometers and SkiErgs",
+      "Olympic Power Racks, Barbells, Dumbbells up to 100 lbs",
+      "Kinesis One functional cable stations",
+      "Pilates Reformers, Core Balance Trainers, and Swiss Balls",
+      "Chilled eucalyptus workout towels and sparkling water dispensers"
+    ],
+    "classes": [
+      {"name": "Sunrise Oceanfront Yoga", "schedule": "Daily 7:30 AM - 8:30 AM", "cost": "Complimentary"},
+      {"name": "High-Intensity Interval Training (HIIT)", "schedule": "Mon, Wed, Fri 9:00 AM - 9:45 AM", "cost": "Complimentary"},
+      {"name": "Sunset Pilates Core Sculpt", "schedule": "Tue, Thu, Sat 5:30 PM - 6:15 PM", "cost": "Complimentary"},
+      {"name": "Private Personal Training Session", "schedule": "By Appointment (6:00 AM - 8:00 PM)", "cost": "$120.00 / 60 min"}
+    ],
+    "hours": {
+      "monday": "24/7 with room keycard",
+      "tuesday": "24/7 with room keycard",
+      "wednesday": "24/7 with room keycard",
+      "thursday": "24/7 with room keycard",
+      "friday": "24/7 with room keycard",
+      "saturday": "24/7 with room keycard",
+      "sunday": "24/7 with room keycard",
+      "notes": "Fitness staff and personal trainers on duty daily from 6:30 AM to 8:30 PM."
+    },
+    "pricing": {
+      "base_price": 0.0,
+      "currency": "USD",
+      "unit": "complimentary",
+      "complimentary_for": ["all_hotel_guests"],
+      "gratuity_included": false
+    },
+    "personal_training": true,
+    "personal_training_fee": 120.0,
+    "age_restriction": 16,
+    "policies": [
+      "Guests aged 16 and older welcome; guests aged 14-15 must be accompanied by an adult guardian",
+      "Athletic apparel and closed-toe athletic sneakers mandatory at all times",
+      "Private lockers, sauna, and rainfall showers located in the adjacent spa pavilion"
+    ],
+    "contact": "Dial 720 for Fitness Pavilion desk or consult the concierge."
+  },
+  "pool": {
+    "id": "SRV-POOL-01",
+    "name": "Resort Aquatic Sanctuary (3 Distinct Heated Pools)",
+    "description": "Three heated outdoor saltwater pools offering panoramic cliffside ocean vistas, luxury cabana service, and attentive poolside refreshment.",
+    "pools": [
+      {
+        "name": "Cliffside Multi-Tier Infinity Pool",
+        "type": "Resort Main Pool (Heated to 82°F / 28°C)",
+        "hours": "6:00 AM - 10:00 PM Daily",
+        "description": "Dramatic infinity edge visually merging with the Mediterranean horizon.",
+        "amenities": "Complimentary sun loungers, chilled fruit towels, Evian face spritzes"
+      },
+      {
+        "name": "The Serenity Adults-Only Pool (18+)",
+        "type": "Quiet Relaxation Pool (Heated to 84°F / 29°C)",
+        "hours": "8:00 AM - 8:00 PM Daily",
+        "description": "Peaceful sanctuary with private shaded daybeds, plush double cabanas, and silent chill lounge music.",
+        "amenities": "Dedicated poolside sommelier, chilled champagne service, artisan fruit platters"
+      },
+      {
+        "name": "Family Splash Lagoon & Kids Wading Pool",
+        "type": "Family & Children Pool (Zero-entry depth, Heated to 84°F)",
+        "hours": "9:00 AM - 7:00 PM Daily",
+        "description": "Gentle zero-entry beach pool with gentle bubbling fountains and water play elements.",
+        "amenities": "Complimentary swim vests, floatation toys, and attentive certified lifeguard"
+      }
+    ],
+    "hours": {
+      "monday": "6:00 AM - 10:00 PM",
+      "tuesday": "6:00 AM - 10:00 PM",
+      "wednesday": "6:00 AM - 10:00 PM",
+      "thursday": "6:00 AM - 10:00 PM",
+      "friday": "6:00 AM - 10:00 PM",
+      "saturday": "6:00 AM - 10:00 PM",
+      "sunday": "6:00 AM - 10:00 PM",
+      "notes": "Poolside food and cocktail service from 10:30 AM to 7:00 PM."
+    },
+    "pricing": {
+      "base_price": 0.0,
+      "currency": "USD",
+      "unit": "complimentary",
+      "complimentary_for": ["all_hotel_guests"],
+      "gratuity_included": false
+    },
+    "towel_service": true,
+    "lifeguard_hours": "9:00 AM - 7:00 PM at Main & Family pools",
+    "age_policy": "All ages welcome at Main & Family pools; Serenity pool strictly reserved for adults 18+",
+    "policies": [
+      "Glassware strictly forbidden in all pool and jacuzzi areas; polycarbonate glassware provided",
+      "Private VIP Cabana rentals available: $150 half-day / $250 full-day (includes fresh fruit platter, San Pellegrino, and dedicated attendant)",
+      "Lounge chairs cannot be reserved unattended for more than 45 minutes"
+    ],
+    "contact": "Dial 730 for Poolside Concierge or visit the Pool Cabana Desk."
+  },
+  "spa": {
+    "id": "SRV-SPA-01",
+    "name": "The Azure Wellness Spa & Thalassotherapy Center",
+    "description": "Award-winning holistic sanctuary featuring 12 ocean-view treatment suites, private couples' suites with outdoor soaking tubs, and an authentic Thalassotherapy hydrothermal circuit.",
+    "hours": {
+      "monday": "8:00 AM - 8:00 PM",
+      "tuesday": "8:00 AM - 8:00 PM",
+      "wednesday": "8:00 AM - 8:00 PM",
+      "thursday": "8:00 AM - 8:00 PM",
+      "friday": "8:00 AM - 8:00 PM",
+      "saturday": "8:00 AM - 8:00 PM",
+      "sunday": "8:00 AM - 8:00 PM",
+      "notes": "Last treatment appointment begins at 6:45 PM."
+    },
+    "pricing": {
+      "base_price": 95.0,
+      "currency": "USD",
+      "unit": "per_treatment",
+      "complimentary_for": ["hydrothermal_circuit_included_with_60min_treatment"],
+      "gratuity_included": false
+    },
+    "signature_treatments": [
+      {"name": "Azure Deep Mineral Recovery Massage", "duration": "80 min", "price": 280.0, "category": "Massage", "desc": "Volcanic stones, targeted pressure, therapeutic Brittany marine magnesium oil."},
+      {"name": "Couples Ocean Harmony Massage", "duration": "90 min", "price": 550.0, "category": "Couples Massage", "desc": "Side-by-side aromatherapy Swedish massage with private hydro tub and Dom Pérignon."},
+      {"name": "Cellular Radiance Caviar Facial", "duration": "60 min", "price": 240.0, "category": "Facial", "desc": "Marine collagen and caviar extract with cryo-sculpting rollers for intense skin firming."},
+      {"name": "Thalassotherapy & Thermal Vitality Circuit", "duration": "60 min", "price": 95.0, "category": "Hydrotherapy", "desc": "Heated seawater vitality pool, Himalayan salt inhalation, eucalyptus steam, and ice plunge."}
+    ],
+    "policies": [
+      "Please arrive 20 minutes prior to scheduled treatment to enjoy relaxation lounge and herbal tea",
+      "24-hour advance cancellation required to avoid a 50% cancellation fee (100% inside 4 hours)",
+      "Guests aged 18+ for treatments; teens 14-17 welcome for select facials with parent present"
+    ],
+    "contact": "Dial 710 from your room or email spa@grandazureresort.com."
+  },
+  "restaurants": {
+    "id": "SRV-REST-01",
+    "name": "Resort Dining Collection & Bars",
+    "description": "Four acclaimed culinary destinations ranging from Michelin-caliber French Provençal to fresh oceanfront seafood, cocktail lounge, and casual Mediterranean dining.",
+    "venues": [
+      {
+        "name": "Azure Breeze Seafood Grill",
+        "cuisine": "Mediterranean & Fresh Coastal Seafood",
+        "style": "Fine Dining Oceanfront",
+        "hours": "Breakfast: 6:30 AM - 10:30 AM; Lunch: 12:00 PM - 3:00 PM; Dinner: 5:30 PM - 10:30 PM",
+        "dress_code": "Smart Casual (Collared shirts, no athletic shorts or beach flip-flops)",
+        "reservations": "Highly recommended for dinner",
+        "signature": "Pan-Seared Chilean Sea Bass, Whole Grilled Lobster, Chilled Seafood Plateau"
+      },
+      {
+        "name": "Le Jardin French Bistro",
+        "cuisine": "Modern French Provençal",
+        "style": "Upscale Garden Courtyard Dining",
+        "hours": "Lunch: 11:30 AM - 2:30 PM; Dinner: 5:00 PM - 10:00 PM; Sunday Brunch: 10:30 AM - 2:30 PM",
+        "dress_code": "Resort Elegant",
+        "reservations": "Required for dinner and Sunday Brunch",
+        "signature": "Duck Breast Magret with Cherry Port, Wild Forest Mushroom Risotto, Grand Marnier Soufflé"
+      },
+      {
+        "name": "Sunset Cliffside Lounge & Raw Bar",
+        "cuisine": "Artisanal Tapas, Fresh Sushi, Craft Mixology",
+        "style": "Panoramic Open-Air Cocktail Lounge",
+        "hours": "Daily 4:00 PM - Midnight (Happy Hour 4:30 PM - 6:00 PM)",
+        "dress_code": "Resort Casual",
+        "reservations": "Walk-in basis (first come, first served)",
+        "signature": "Bluefin Tuna Tartare, Crispy Wagyu Beef Sliders, Azure Sunset Botanical Cocktail"
+      },
+      {
+        "name": "Solaria Terrace & Breakfast Pavilion",
+        "cuisine": "Mediterranean Breakfast Buffet & Light Fare",
+        "style": "Casual Sunlit Terrace",
+        "hours": "Daily 6:30 AM - 3:00 PM",
+        "dress_code": "Casual Resort Attire",
+        "reservations": "Not required",
+        "signature": "Made-to-order Belgian waffles, artisanal charcuterie, fresh cold-pressed wellness elixirs"
+      }
+    ],
+    "policies": [
+      "Room charge and major credit cards accepted at all venues",
+      "Private dining rooms available for parties of 8 to 24 guests with bespoke tasting menus",
+      "Children's menus with healthy gourmet options available at all restaurants"
+    ],
+    "contact": "Dial 3 for Restaurant Reservations & Dining Concierge."
+  }
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "DIN-AZURE",
+    "name": "Azure Breeze Seafood Grill",
+    "cuisine_type": "Mediterranean & Coastal Seafood",
+    "dining_style": "Fine Dining",
+    "location": "Cliffside Promenade, Level 1",
+    "hours": {
+      "Breakfast": "6:30 AM - 10:30 AM (Weekdays), 6:30 AM - 11:00 AM (Weekends)",
+      "Lunch": "12:00 PM - 3:00 PM Daily",
+      "Dinner": "5:30 PM - 10:30 PM Daily"
+    },
+    "dress_code": "Smart Casual (Collared shirts, no beachwear or athletic flip-flops)",
+    "reservation_required": true,
+    "price_level": "$$$$",
+    "signature_dishes": [
+      "Pan-Seared Chilean Sea Bass with Truffle Sunchoke Puree",
+      "Whole Grilled Azure Bay Lobster with Herbs de Provence",
+      "Chilled Seafood Plateau (King crab, oysters, jumbo prawns)",
+      "Meyer Lemon Tart with Rosemary Infused Crème Fraîche"
+    ],
+    "dietary_options": ["Gluten-Free", "Dairy-Free", "Halal-friendly options", "Vegetarian"],
+    "room_service_available": true
+  },
+  {
+    "id": "DIN-JARDIN",
+    "name": "Le Jardin French Bistro",
+    "cuisine_type": "Modern French Provençal",
+    "dining_style": "Upscale Casual",
+    "location": "Courtyard Botanical Gardens, Ground Level",
+    "hours": {
+      "Lunch": "11:30 AM - 2:30 PM Daily",
+      "Dinner": "5:00 PM - 10:00 PM Daily",
+      "Sunday Brunch": "10:30 AM - 2:30 PM (Sundays only)"
+    },
+    "dress_code": "Resort Elegant (Smart denim permitted, no athletic shorts)",
+    "reservation_required": true,
+    "price_level": "$$$",
+    "signature_dishes": [
+      "Duck Breast Magret with Cherry Port Reduction",
+      "Wild Forest Mushroom Risotto with Aged Parmesan (Vegetarian)",
+      "Traditional Bouillabaisse with Saffron Rouille",
+      "Soufflé au Grand Marnier"
+    ],
+    "dietary_options": ["Vegetarian", "Vegan upon request", "Gluten-Free adaptations"],
+    "room_service_available": false
+  },
+  {
+    "id": "DIN-SUNSET",
+    "name": "Sunset Cliffside Lounge & Raw Bar",
+    "cuisine_type": "Artisanal Tapas, Sushi & Craft Cocktails",
+    "dining_style": "Lounge & Cocktail Bar",
+    "location": "Infinity Terrace, Level 3",
+    "hours": {
+      "Daily": "4:00 PM - Midnight (Happy Hour 4:30 PM - 6:00 PM)"
+    },
+    "dress_code": "Resort Casual",
+    "reservation_required": false,
+    "price_level": "$$",
+    "signature_dishes": [
+      "Bluefin Tuna Tartare with Avocado and Yuzu Ponzu",
+      "Crispy Wagyu Beef Sliders with Truffle Aioli",
+      "Oysters on the Half Shell with Champagne Mignonette",
+      "Azure Sunset Cocktail (Botanical gin, passionfruit, butterfly pea flower)"
+    ],
+    "dietary_options": ["Gluten-Free", "Pescatarian"],
+    "room_service_available": false
+  },
+  {
+    "id": "DIN-ROOMSVC",
+    "name": "In-Room Dining (24/7 Room Service)",
+    "cuisine_type": "International Comfort & Gourmet Classics",
+    "dining_style": "In-Room Delivery",
+    "location": "Delivered to all Guest Rooms & Villas",
+    "hours": {
+      "24/7": "Available 24 hours daily. Late night menu from 11:00 PM to 6:00 AM."
+    },
+    "dress_code": "Not applicable",
+    "reservation_required": false,
+    "price_level": "$$$",
+    "signature_dishes": [
+      "Grand Azure Wagyu Burger on Brioche with Truffle Fries",
+      "Artisan Wood-Fired Margherita Pizza",
+      "Classic Club Sandwich with Smoked Turkey & Applewood Bacon",
+      "Organic Acai Breakfast Bowl with Berries and Honeycomb"
+    ],
+    "dietary_options": ["Vegetarian", "Vegan", "Gluten-Free", "Kids Menu Available"],
+    "room_service_available": true
+  }
+]

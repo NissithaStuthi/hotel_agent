@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ATT-001",
+    "name": "Emerald Cove Sea Caves & Kayak Sanctuary",
+    "category": "Nature & Adventure",
+    "distance_km": 3.2,
+    "travel_time_minutes": 10,
+    "recommended_duration": "2 - 3 hours",
+    "description": "Stunning crystalline sea caves with bioluminescent waters and secluded pebble beaches accessible by sea kayak or guided paddleboard tour.",
+    "concierge_tips": "Best visited at morning high tide between 9:00 AM and 11:30 AM when sunlight illuminates the cave grottos. We can arrange private eco-kayak gear directly delivered from the resort beach club."
+  },
+  {
+    "id": "ATT-002",
+    "name": "Historic Old Town Citadel & Artisan Market",
+    "category": "Cultural & Heritage",
+    "distance_km": 7.5,
+    "travel_time_minutes": 18,
+    "recommended_duration": "3 - 4 hours",
+    "description": "17th-century cobblestone fortress town featuring local perfume ateliers, Mediterranean ceramic workshops, boutique galleries, and open-air cafés.",
+    "concierge_tips": "Visit in the late afternoon before sunset. Stroll down Rue des Oliviers for bespoke handmade fragrances and olive oil tastings."
+  },
+  {
+    "id": "ATT-003",
+    "name": "Monte Azure Cliffside Botanical Gardens",
+    "category": "Nature & Scenic",
+    "distance_km": 5.0,
+    "travel_time_minutes": 12,
+    "recommended_duration": "1.5 - 2 hours",
+    "description": "15-acre terraced botanical gardens perched over the Mediterranean with over 2,000 exotic subtropical cacti, succulents, and panoramic cliff vistas.",
+    "concierge_tips": "Wear comfortable walking shoes for the terraced stairs. The garden café serves artisanal iced hibiscus tea."
+  },
+  {
+    "id": "ATT-004",
+    "name": "Azure Marina Promenade & Luxury Boutiques",
+    "category": "Shopping & Dining",
+    "distance_km": 1.5,
+    "travel_time_minutes": 5,
+    "recommended_duration": "2 hours",
+    "description": "Chic waterfront promenade lined with superyachts, luxury designer boutiques, gelato artisans, and lively champagne bars.",
+    "concierge_tips": "Take the complimentary resort house Mercedes shuttle or enjoy a scenic 15-minute coastal stroll along the Cliff Walkway."
+  }
+]

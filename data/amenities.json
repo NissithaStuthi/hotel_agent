@@ -1,0 +1,69 @@
+[
+  {
+    "id": "AMN-POOL",
+    "name": "Cliffside Multi-Tier Infinity Pools & Cabanas",
+    "category": "Recreation",
+    "location": "Resort Cliff Edge Terrace, Levels 2 & 3",
+    "operating_hours": "6:00 AM - 10:00 PM Daily (Adults-only quiet hours 8:00 PM - 10:00 PM)",
+    "access_fee_usd": 0.0,
+    "rules": [
+      "Water temperature maintained at 82°F (28°C) year-round",
+      "Private luxury day cabanas require reservation ($150 half-day, includes fruit platter and attendant)",
+      "Complimentary sunscreen, iced fruit-infused towels, and sun loungers provided",
+      "Glassware prohibited in pool areas"
+    ]
+  },
+  {
+    "id": "AMN-FITNESS",
+    "name": "Panoramic Oceanfront Fitness Pavilion",
+    "category": "Wellness",
+    "location": "North Wing, Level 2",
+    "operating_hours": "24 hours daily with room keycard access",
+    "access_fee_usd": 0.0,
+    "rules": [
+      "Equipped with Technogym Artis series, Peloton bikes, and free weights up to 100 lbs",
+      "Daily complimentary sunrise yoga at 7:30 AM on the ocean lawn",
+      "Certified personal trainers available on request ($120/hr session)",
+      "Athletic attire and closed-toe athletic shoes required"
+    ]
+  },
+  {
+    "id": "AMN-BEACH",
+    "name": "Private Azure Beach Club & Marina",
+    "category": "Recreation",
+    "location": "Beachfront Cove (Accessed via scenic cliffside elevator)",
+    "operating_hours": "8:00 AM - 7:00 PM Daily",
+    "access_fee_usd": 0.0,
+    "rules": [
+      "Complimentary paddleboards, sea kayaks, and snorkeling gear for in-house guests",
+      "Private 42-foot luxury yacht charters available starting from $1,200 for half-day",
+      "Lifeguard on duty during operating hours; swimming at own risk outside hours"
+    ]
+  },
+  {
+    "id": "AMN-VALET",
+    "name": "Valet Parking & EV Supercharging Stations",
+    "category": "Services",
+    "location": "Main Entrance Grand Porte-Cochère",
+    "operating_hours": "24 hours daily",
+    "access_fee_usd": 45.0,
+    "rules": [
+      "Overnight valet parking is $45 per night with unlimited in/out privileges",
+      "Day guest valet parking is complimentary with restaurant or spa validation ($75 minimum spend)",
+      "Complimentary Tesla and universal Level 2 EV charging for registered hotel guests"
+    ]
+  },
+  {
+    "id": "AMN-KIDS",
+    "name": "Little Mariners Kids Club & Play Pavilion",
+    "category": "Family",
+    "location": "Garden Wing, Level 1",
+    "operating_hours": "9:00 AM - 5:00 PM Daily",
+    "access_fee_usd": 0.0,
+    "rules": [
+      "Complimentary supervised activities for children aged 4 to 12 years",
+      "Evening pajama movie parties on Friday and Saturday from 6:00 PM to 9:00 PM ($40/child including dinner)",
+      "Licensed private in-room babysitting available with 12-hour advance booking ($35/hr)"
+    ]
+  }
+]
